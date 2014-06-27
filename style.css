@@ -95,6 +95,10 @@ body{
 	padding-bottom: 40px;
 	width: 200px;
 	margin: auto;
+	font-family: sans-serif;
+	color:#fb8d60;
+	font-size: 48px;
+	font-weight: lighter;
 }
 
 .intro{
@@ -116,6 +120,10 @@ body{
 .skills-title{
 	margin: auto;
 	padding: 44px;
+	font-family: sans-serif;
+	color:white;
+	font-size: 48px;
+	font-weight: lighter;
 }
 
 
@@ -152,6 +160,10 @@ body{
 	bottom: 0;
 	position: absolute;
 	width: 240px;
+	color:white;
+	font-family: sans-serif;
+	font-weight: bold;
+	line-height: 50px;
 }
 
 
@@ -166,7 +178,7 @@ body{
 }
 
 .row-1 .project-2{
-	
+	background-image:url(images/sparc-thumb.jpg);	
 }
 
 .row-1 .project-2 .bottom{
@@ -174,7 +186,7 @@ body{
 }
 
 .row-1 .project-3{
-	
+	background-image:url(images/shopping-thumb.jpg);
 }
 
 .row-1 .project-3 .bottom{
@@ -184,7 +196,7 @@ body{
 
 
 .row-2 .project-1{
-	
+	background-image:url(images/landing2-thumb.jpg);
 }
 
 .row-2 .project-1 .bottom{
@@ -192,6 +204,7 @@ body{
 }
 
 .row-2 .project-2{
+	background-image:url(images/api-thumb.jpg);
 	
 }
 
@@ -200,7 +213,7 @@ body{
 }
 
 .row-2 .project-3{
-	background-image: url(images/ryu-thumb.jpg);
+	background-image:url(images/rays-thumb.jpg);
 }
 
 .row-2 .project-3 .bottom{
@@ -210,6 +223,7 @@ body{
 
 
 .row-3 .project-1{
+	background-image:url(images/sparc-thumb.jpg);
 }
 
 .row-3 .project-1 .bottom{
@@ -217,7 +231,7 @@ body{
 }
 
 .row-3 .project-2{
-	
+	background-image:url(images/quiz-thumb.jpg);
 }
 
 .row-3 .project-2 .bottom{
@@ -225,7 +239,7 @@ body{
 }
 
 .row-3 .project-3{
-	
+	background-image:url(images/globe-thumb.jpg);
 }
 
 .row-3 .project-3 .bottom{
