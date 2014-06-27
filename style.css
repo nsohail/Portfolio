@@ -27,7 +27,7 @@ body{
   	background-color:#f5ebde;
   	height:100%;
 
-  	/*display:none;*/
+  	display:none;
 }
 
 .icons img{
@@ -248,14 +248,15 @@ body{
 
 
 
-
-
 .foreground{
 	background-image: url(images/css-skill.png),url(images/javascript-skill.png),url(images/html-skill.png);
 	background-position: 50% 0px, 80% 50px, 25% 50px;
 	height: 300px;
 	background-repeat: no-repeat;
 }
+
+
+
 
 
 
