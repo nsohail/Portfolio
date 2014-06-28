@@ -88,6 +88,17 @@ body{
 	background-color: #777777;
 	margin:auto;
 	margin-bottom: 16px;
+	background-image: url(images/argan-main.jpg);
+	border-radius: 8px;
+	box-shadow: rgb(226, 226, 226) 0px 4px 3px;
+}
+
+.main-slider{
+	background-image: url(images/argan-main.jpg);
+}
+
+.main-image{
+	background-image: url(images/argan-main-2.jpg);
 }
 
 .left-image, .right-image{
@@ -95,10 +106,17 @@ body{
 	height:258px;
 	background-color: #777777;
 	float:left;
+	border-radius: 8px;
+	box-shadow: rgb(226, 226, 226) 0px 4px 3px;
 }
 
 .left-image{
 	margin-right: 16px;
+	background-image: url(images/argan-main-left.jpg);
+}
+
+.right-image{
+	background-image: url(images/argan-main-right.jpg);
 }
 
 
@@ -106,7 +124,7 @@ body{
 	width:620px;
 	height:260px;
 	margin:auto;
-	margin-bottom: 16px;
+	padding-bottom: 20px;
 }
 
 
@@ -130,7 +148,20 @@ body{
 
 .work-header{
 	height:240px;
-	background-color: #ff9d60;
+	background-image: url(images/argan-head.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.overlay{
+	background-color: rgba(255, 170, 117, 0.7);
+	height:100%;
+	width:100%;
+	color:white;
+	font-family: sans-serif;
+	font-size: 45px;
+	text-align: center;
+	padding-top: 95px;
 }
 
 
