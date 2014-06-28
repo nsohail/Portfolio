@@ -82,9 +82,36 @@ body{
 	height:100%;
 }
 
+.main-slider,.main-image{
+	width:620px;
+	height:346px;
+	background-color: #777777;
+	margin:auto;
+	margin-bottom: 16px;
+}
+
+.left-image, .right-image{
+	width:302px;
+	height:258px;
+	background-color: #777777;
+	float:left;
+}
+
+.left-image{
+	margin-right: 16px;
+}
+
+
+.wrap{
+	width:620px;
+	height:260px;
+	margin:auto;
+	margin-bottom: 16px;
+}
+
 
 .work{
-	height:890px;
+	height:auto;
 	background-color: #ededed;
 	padding-top: 44px;
 	text-align: center;
@@ -100,6 +127,13 @@ body{
 	font-weight: lighter;
 }
 
+
+.work-header{
+	height:240px;
+	background-color: #ff9d60;
+}
+
+
 .intro{
 	background-color: #7ec9ac;
 	height:340px;
@@ -108,6 +142,8 @@ body{
 .intro-text{
 	text-align: center;
 	color:white;
+	font-size: 48px;
+	padding-top: 120px;
 }
 
 .skills{
@@ -175,6 +211,7 @@ body{
 .row-1 .project-1 .bottom{
 	background-color: #404663;
 }
+
 
 .row-1 .project-2{
 	background-image:url(images/argan-thumb.jpg);	
