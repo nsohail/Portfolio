@@ -206,6 +206,7 @@ body{
 .intro{
 	background-color: #7ec9ac;
 	height:340px;
+	min-width: 1050px;
 }
 
 
@@ -273,9 +274,11 @@ body{
 	position: relative;
 	height: 300px;
 	min-width: 350px;
-	width:33%;
+	width:33.33%;
 	background-color:black;
 	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 
