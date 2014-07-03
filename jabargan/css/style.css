@@ -24,6 +24,7 @@ body{
   /*border-radius: 8px;*/
   /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
   margin-right: 32px;
+  margin-bottom: 50px;
 }
 
 
@@ -42,6 +43,12 @@ body{
 }
 
 
+.brochure-image{
+  width: 1024px;
+  height: 331px;
+  clear: both;
+  margin-bottom: 50px;
+}
 
 .wrap{
   width:1024px;
