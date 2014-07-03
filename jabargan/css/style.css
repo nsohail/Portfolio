@@ -1,0 +1,211 @@
+@font-face{
+  font-family: haymaker;
+  src: url(Haymaker.ttf);
+}
+
+body{
+  margin:auto;
+  width:100%;
+  background-color: #ededed;
+}
+
+.main{
+  min-width: 1050px;
+}
+
+
+
+
+
+.left-image, .right-image, .middle-image{
+  width:320px;
+  height:270px;
+  float:left;
+  /*border-radius: 8px;*/
+  /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
+  margin-right: 32px;
+}
+
+
+
+.left-image{
+  background-image: url(../images/jab-argan-reg.png);
+}
+
+.middle-image{
+  background-image: url(../images/jab-argan-vitamin.png);
+}
+
+.right-image{
+  background-image: url(../images/jab-argan-pomegranate.png);
+  margin-right: 0;
+}
+
+
+
+.wrap{
+  width:1024px;
+  height:260px;
+  margin:auto;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.work{
+  height:auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+.work-header{
+  height:240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  background-image: url(../images/argan-head.jpg);
+}
+
+
+
+.overlay{
+  height:100%;
+  width:100%;
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 95px;
+  background-color: rgba(255, 170, 117, 0.8);
+}
+
+
+
+@-webkit-keyframes cycle1 {
+   0% { opacity: 1; }
+   25% { opacity: 1; }
+   70% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes cycle2 {
+  0% { opacity: 0; }
+   15% { opacity: 0; }
+   25% { opacity: 1; }
+   50% { opacity: 1; }
+   75% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes cycle3 {
+   0% { opacity: 0; }
+   35% { opacity: 0; }
+   50% { opacity: 1; }
+   75% { opacity: 1; }
+   90% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes cycle4 {
+  0% { opacity: 0; }
+   65% { opacity: 0; }
+   75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+#myCarousel{
+  margin: auto;
+  width: 1024px;
+  height: 640px;
+  margin-bottom: 50px;
+}
+
+.carousel-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img{
+  display: block;
+  min-width: 1024px;
+  min-height: 640px;
+}
+
+
+
+a .left .carousel-control{
+  background-image:none;
+}
+
+.right .carousel-control{
+  background-image:none;
+}
+
+.carousel-control{
+  opacity: .5;
+}
+
+
+
+.carousel-control .glyphicon-circle-arrow-left, .carousel-control .icon-prev {
+  margin-left: -15px;
+}
+
+.carousel-control .glyphicon-circle-arrow-right, .carousel-control .icon-prev {
+  margin-left: -15px;
+}
+
+.carousel-control .glyphicon-circle-arrow-left, .carousel-control .glyphicon-circle-arrow-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  font-size: 30px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-circle-arrow-left {
+  left: 50%;
+  margin-left: -10px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-circle-arrow-right{
+right: 40%;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-circle-arrow-left, .carousel-control .glyphicon-circle-arrow-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+
+
+
+@media screen and (min-width: 900px){
+.glyphicon-circle-arrow-left{
+  font-size:2em;
+}
+}
+
+ul,ol{
+  margin-bottom: 0px;
+}
+
