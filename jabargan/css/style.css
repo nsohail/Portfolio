@@ -14,7 +14,34 @@ body{
 }
 
 
+.previous-page{
+  background-color: rgba(212, 212, 212, 0.73);
+  width: 65px;
+  height: 70px;
+  position: fixed;
+  z-index: 600;
+  top: 50%;
+  left: 0;
+  font-size: 50px;
+  text-align: center;
+}
 
+.next-page{
+  background-color: rgba(212, 212, 212, 0.73);
+  width: 65px;
+  height: 70px;
+  position: fixed;
+  z-index: 600;
+  top: 50%;
+  right: 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.glyphicon{
+  line-height: 1.4;
+}
 
 
 .left-image, .right-image, .middle-image{
@@ -77,6 +104,39 @@ body{
   background-size: cover;
   margin-bottom: 40px;
   background-image: url(../images/argan-head.jpg);
+  position: relative;
+}
+
+
+.icons img{
+  width:35px;
+}
+
+.icons{
+  height:100%;
+}
+
+.icons img{
+  width: 40px;
+}
+
+.icons ul{
+  width: 275px;
+  margin:0;
+}
+
+.icons ul li{
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+}
+
+
+#back-home{
+  position: absolute;
+  bottom: 180px;
+  left: 20px;
+  width:100px;
 }
 
 
@@ -215,4 +275,9 @@ right: 40%;
 ul,ol{
   margin-bottom: 0px;
 }
+
+
+
+
+
 

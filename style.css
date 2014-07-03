@@ -207,6 +207,7 @@ body{
 	background-color: #7ec9ac;
 	height:340px;
 	min-width: 1050px;
+	position: relative;
 }
 
 
@@ -288,7 +289,7 @@ body{
 	z-index: 40;
 	bottom: 0;
 	position: absolute;
-	width: 350px;
+	width: 100%;
 	color:white;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
@@ -300,12 +301,13 @@ body{
 	-webkit-transform: translateY(300px);
 	transition: all 0.3s ease-in-out;
 	height: 300px;
-	width: 350px;
+	width: 100%;
 	position: absolute;
 }
 
 .row-1 .project-1{
 	background-image:url(images/landing-thumb.jpg);
+	background-color: #d9544d;
 }
 
 .row-1 .project-1 .bottom{
@@ -318,7 +320,8 @@ body{
 
 
 .row-1 .project-2{
-	background-image:url(images/argan-thumb.jpg);	
+	background-image:url(images/argan-thumb.jpg);
+	background-color: #3d3630;	
 }
 
 .row-1 .project-2 .bottom{
@@ -332,6 +335,7 @@ body{
 
 .row-1 .project-3{
 	background-image:url(images/shopping-thumb.jpg);
+	background-color: #9ab85e;
 }
 
 .row-1 .project-3 .bottom{
@@ -351,6 +355,7 @@ body{
 
 .row-2 .project-1{
 	background-image:url(images/api-thumb.jpg);
+	background-color: #ff8901;
 }
 
 .row-2 .project-1 .bottom{
@@ -363,6 +368,7 @@ body{
 
 .row-2 .project-2{
 	background-image:url(images/rays-thumb.jpg);
+	background-size: cover;
 }
 
 .row-2 .project-2 .bottom{
@@ -376,6 +382,7 @@ body{
 
 .row-2 .project-3{
 	background-image:url(images/globe-thumb.jpg);
+	background-color: #d94231;
 }
 
 .row-2 .project-3 .bottom{
@@ -390,6 +397,7 @@ body{
 
 .row-3 .project-1{
 	background-image:url(images/quiz-thumb.jpg);
+	background-color: #c9d16e;
 }
 
 .row-3 .project-1 .bottom{
@@ -517,6 +525,26 @@ body{
 
 
 
+.icons{
+	right: 0;
+	position: absolute;
+	height: 50px;
+	bottom: 20px;
+}
 
+.icons img{
+	width: 40px;
+}
+
+.icons ul{
+	width: 275px;
+	margin:0;
+}
+
+.icons ul li{
+	display: inline-block;
+	width: 60px;
+	height: 50px;
+}
 
 
