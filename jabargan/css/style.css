@@ -6,36 +6,46 @@
 body{
   margin:auto;
   width:100%;
-  background-color: #ededed;
+  background-color: #D8CEC3;
 }
 
 .main{
   min-width: 1050px;
+  left: 80px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background-color: #ededed;
+  z-index:0;
 }
+
+
 
 
 .previous-page{
-  background-color: rgba(212, 212, 212, 0.73);
   width: 65px;
   height: 70px;
-  position: fixed;
+  position: absolute;
   z-index: 600;
-  top: 50%;
-  left: 0;
+  top: 38%;
+  left: 200px;
   font-size: 50px;
   text-align: center;
+  color: rgba(255, 255, 255, 0.62);
 }
 
 .next-page{
-  background-color: rgba(212, 212, 212, 0.73);
   width: 65px;
   height: 70px;
-  position: fixed;
+  position: absolute;
   z-index: 600;
   top: 50%;
   right: 0;
   font-size: 50px;
   text-align: center;
+  top: 38%;
+  right: 200px;
+  color: rgba(255, 255, 255, 0.62);
 }
 
 
@@ -79,7 +89,6 @@ body{
 
 .wrap{
   width:1024px;
-  height:260px;
   margin:auto;
   padding-bottom: 20px;
 }
@@ -137,6 +146,7 @@ body{
   bottom: 180px;
   left: 20px;
   width:100px;
+  display: none;
 }
 
 
@@ -281,3 +291,58 @@ ul,ol{
 
 
 
+
+
+
+
+
+
+
+
+.navbar{
+  overflow:hidden;
+  top: 0;
+  position: fixed;
+  left: 0;
+  z-index: 900;
+  height:100%;
+  background-color: #D8CEC3;
+}
+
+
+
+
+.base{
+  overflow: visible;
+  /*border-bottom: 1px solid #363636;*/
+  position: relative;
+  /* cursor: pointer; */
+  width: 80px;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 50%;
+}
+
+
+
+.logo{
+  background-image: url(../images/logo.png);
+  background-size: 80%;
+}
+
+.home{
+  background-image: url(../images/home.png);
+}
+
+.resume{
+  background-image: url(../images/resume.png);
+}
+
+.email{
+  background-image: url(../images/mail.png);
+}
+
+.linkedin{
+  background-image: url(../images/linked.png);
+}
