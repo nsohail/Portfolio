@@ -30,7 +30,10 @@
 
 		<div class="icons">
 			<ul>
-				<a href="#" class="icon-still"><li><img src="images/resume.png" id="resume-off"><img src="images/resume-on.png" class="icon-action resume-on"></li></a>
+				<a href="#" class="icon-still">
+					<li><img src="images/resume.png" id="resume-off"><img src="images/resume-on.png" class="icon-action resume-on">
+					</li>
+				</a>
 
 				<a href="mailto:nsohail92@gmail.com" class="icon-still"><li><img src="images/mail.png"><img src="images/mail-on.png" class="icon-action mail-on"></li></a>
 
@@ -116,20 +119,26 @@
 
 
 <script>
-  $( ".icon-still").mouseenter(function() {
-  $(".icon-action").fadeIn(300);
+  $(".icon-still").mouseenter(function(e) {
+
+  console.log(e);
+  console.log(e.target);
+  console.log(this);
+  console.log($(this));	
+  //debugger;
+
+  $(this).children($(".icon-action").fadeIn(300))
 });
 
-  $( ".icon-still").mouseleave(function() {
-  $(".icon-action").fadeOut(300);
-});
+  //( ".icon-still").mouseleave(function() {
+  //(this).find($(".icon-action").fadeOut(300);)
+//});
 
 </script>
 
 
 </body>
 </html>
-
 
 
 
