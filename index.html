@@ -30,9 +30,9 @@
 
 		<div class="icons">
 			<ul>
-				<a href="#"><li><img src="images/resume.png" id="resume-off"><img src="images/resume-on.png" id="resume-on"></li></a>
-				<a href="mailto:nsohail92@gmail.com"><li><img src="images/mail.png"><img src="images/mail-on.png" id="mail-on"></li></a>
-				<a href="http://www.linkedin.com/pub/neha-sohail/58/557/696" target="_blank"><li><img src="images/linkedin.png"><img src="images/linkedin-on.png" id="linkedin-on"></li></a>
+				<a href="#" id="icon-hovers"><li><img src="images/resume.png" id="resume-off"><img src="images/resume-on.png" id="resume-on"></li></a>
+				<a href="mailto:nsohail92@gmail.com" id="icon-hovers"><li><img src="images/mail.png"><img src="images/mail-on.png" id="mail-on"></li></a>
+				<a href="http://www.linkedin.com/pub/neha-sohail/58/557/696" target="_blank" id="icon-hovers"><li><img src="images/linkedin.png"><img src="images/linkedin-on.png" id="linkedin-on"></li></a>
 			</ul>
 		</div>
 		</div>
@@ -114,10 +114,14 @@
 
 
 <script>
-  $( "#resume-off").mouseenter(function() {
-  $("#resume-on").css('display','block');
-  $("#resume-on").fadeIn("slow");
+  $( "#icon-hovers").mouseenter(function() {
+  $("#resume-on").fadeIn(300);
 });
+
+  $( "#icon-hovers").mouseleave(function() {
+  $("#resume-on").fadeOut(300);
+});
+
 </script>
 
 

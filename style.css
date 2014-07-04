@@ -36,7 +36,6 @@ body{
 	position: absolute;
 	top: -90px;
 	left: 8px;
-	display: none;
 }
 
 #mail-on{
@@ -44,7 +43,6 @@ body{
 	position: absolute;
 	top: -90px;
 	left: 74px;
-	display: none;
 }
 
 #linkedin-on{
@@ -52,7 +50,6 @@ body{
 	position: absolute;
 	top: -90px;
 	left: 137px;
-	display: none;
 }
 
 
