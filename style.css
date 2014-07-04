@@ -31,6 +31,31 @@ body{
 	width:35px;
 }
 
+#resume-on{
+	width: 100px;
+	position: absolute;
+	top: -90px;
+	left: 8px;
+	display: none;
+}
+
+#mail-on{
+	width: 100px;
+	position: absolute;
+	top: -90px;
+	left: 74px;
+	display: none;
+}
+
+#linkedin-on{
+	width: 100px;
+	position: absolute;
+	top: -90px;
+	left: 137px;
+	display: none;
+}
+
+
 .navbar ul{
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;

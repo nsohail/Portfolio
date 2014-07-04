@@ -7,6 +7,7 @@
 
 
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 
 </head>
@@ -29,9 +30,9 @@
 
 		<div class="icons">
 			<ul>
-				<a href="#"><li><img src="images/resume.png"></li></a>
-				<a href="mailto:nsohail92@gmail.com"><li><img src="images/mail.png"></li></a>
-				<a href="http://www.linkedin.com/pub/neha-sohail/58/557/696" target="_blank"><li><img src="images/linkedin.png"></li></a>
+				<a href="#"><li><img src="images/resume.png" id="resume-off"><img src="images/resume-on.png" id="resume-on"></li></a>
+				<a href="mailto:nsohail92@gmail.com"><li><img src="images/mail.png"><img src="images/mail-on.png" id="mail-on"></li></a>
+				<a href="http://www.linkedin.com/pub/neha-sohail/58/557/696" target="_blank"><li><img src="images/linkedin.png"><img src="images/linkedin-on.png" id="linkedin-on"></li></a>
 			</ul>
 		</div>
 		</div>
@@ -97,7 +98,6 @@
 				<div class="project project-1">
 					<a href="#"><div class="bottom">QUIZ</div></a>
 					<div class="mask"></div>
-
 				</div>
 
 				
@@ -113,6 +113,12 @@
 	</div>
 
 
+<script>
+  $( "#resume-off").mouseenter(function() {
+  $("#resume-on").css('display','block');
+  $("#resume-on").fadeIn("slow");
+});
+</script>
 
 
 </body>
