@@ -27,32 +27,24 @@ body{
 
 
 
-.icons img{
-	width:35px;
+
+
+.icon-action{
+	top: -90px;
+	position: absolute;
 }
 
+
 .resume-on{
-	width: 100px;
-	position: absolute;
-	top: -90px;
 	left: 8px;
-	display: none;
 }
 
 .mail-on{
-	width: 100px;
-	position: absolute;
-	top: -90px;
 	left: 74px;
-	display: none;
 }
 
 .linkedin-on{
-	width: 100px;
-	position: absolute;
-	top: -90px;
 	left: 137px;
-	display: none;
 }
 
 
@@ -573,4 +565,8 @@ body{
 	height: 50px;
 }
 
+img.icon-action{
+	width:95px;
+	display: none;
+}
 
