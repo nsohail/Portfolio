@@ -561,7 +561,7 @@ body{
 
 .icons ul li{
 	display: inline-block;
-	width: 60px;
+	width: 65px;
 	height: 50px;
 }
 
@@ -570,3 +570,7 @@ img.icon-action{
 	display: none;
 }
 
+
+.icon-still{
+	text-decoration: none;
+}
