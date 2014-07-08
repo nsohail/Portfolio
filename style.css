@@ -11,9 +11,6 @@ body{
 
 
 
-[class*='col-'] {
-}
-
 .navbar{
 	position:fixed;
 	top:0;
@@ -24,7 +21,6 @@ body{
   	height:100%;
   	display:none;
 }
-
 
 
 
@@ -48,125 +44,14 @@ body{
 }
 
 
-.navbar ul{
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 0;
-	padding: 30px;
-	margin-bottom: 10%;
 
 
-}
-
-.navigation-info ul li{
-	display:block;
-	padding: 30%;
-}
-
-.contact-info ul li{
-	padding:15%;
-	display:block;
-}
-
-.logo{
-	text-align: center;
-	border-bottom: rgb(68, 68, 68) solid;
-	padding: 20px 0 20px 0;
-}
-
-.navigation-info{
-	list-style: none;
-	position: relative;
-	text-align: center;
-}
-
-
-
-.contact-info{
-	border-top: 1px solid black;
-	list-style: none;
-	position: relative;
-	text-align: center;
-}
 
 
 .icons{
 	height:100%;
 }
 
-
-.main-slider,.main-image{
-	width:620px;
-	height:346px;
-	background-color: #777777;
-	margin:auto;
-	margin-bottom: 16px;
-	background-image: url(images/argan-main.jpg);
-	border-radius: 8px;
-	box-shadow: rgb(226, 226, 226) 0px 4px 3px;
-}
-
-.argan-slider{
-	background-image: url(images/argan-main.jpg);
-}
-
-.argan-image{
-	background-image: url(images/argan-main-2.jpg);
-}
-
-.landing-slider{
-	background-image: url(images/landing-main.jpg);
-}
-
-.landing-image{
-	background-image: url(images/landing-main-2.jpg);
-}
-
-.left-image, .right-image{
-	width:302px;
-	height:258px;
-	background-color: #777777;
-	float:left;
-	border-radius: 8px;
-	box-shadow: rgb(226, 226, 226) 0px 4px 3px;
-}
-
-.left-image{
-	margin-right: 16px;
-}
-
-
-.landing-left{
-	background-image: url(images/landing-main-left.jpg);
-}
-
-.landing-right{
-	background-image: url(images/landing-main-right.jpg);
-}
-
-.argan-left{
-	background-image: url(images/argan-main-left.jpg);
-}
-
-.argan-right{
-	background-image: url(images/argan-main-right.jpg);
-}
-
-.wrap-auto{
-	margin: auto;
-	width: 430px;
-	position: relative;
-	padding-top: 140px;
-}
-
-.wrap{
-	width:620px;
-	height:260px;
-	margin:auto;
-	padding-bottom: 20px;
-}
 
 
 
@@ -184,41 +69,6 @@ body{
 
 
 
-.work-header{
-	height:240px;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.landing-header{
-	background-image: url(images/landing-head.jpg);
-}
-
-.argan-header{
-	background-image: url(images/argan-head.jpg);
-}
-
-
-
-.overlay{
-	height:100%;
-	width:100%;
-	color:white;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 400;
-	font-size: 45px;
-	text-align: center;
-	padding-top: 95px;
-}
-
-.argan-overlay{
-	background-color: rgba(255, 170, 117, 0.8);
-}
-
-.landing-overlay{
-	background-color: rgba(216, 111, 110, 0.8);
-}
-
 
 .intro{
 	/*background-color: #7ec9ac;*/
@@ -232,7 +82,7 @@ body{
 	text-align: center;
 	color: black;
 	font-size: 55px;
-	/* padding-top: 120px; */
+	padding-top: 120px;
 	font-family: Haymaker, sans-serif;
 	font-weight: 300;
 	width: 490px;
@@ -492,55 +342,6 @@ body{
 
 
 
-.parallax-circle1 { 
-	z-index: 50; 
-	-webkit-animation: cycle1 2s linear infinite; 
-}
-
-.parallax-circle2 { 
-	z-index: 40; 
-	-webkit-animation: cycle2 2s linear infinite; 
-}
-
-.parallax-circle3 { 
-	z-index: 30; 
-	-webkit-animation: cycle3 2s linear infinite; 
-}
-
-.parallax-circle4 { 
-	z-index: 20; 
-	-webkit-animation: cycle4 2s linear infinite; 
-}
-
-
-
-
-
-
-.parallax-circles {
-	position: absolute;
-	top: 25px;
-	left: 35px;
-	width: 170px;
-	height: 170px;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	/*transition: opacity .2s;*/
-}
-
-.parallax-circle {
-	display: block;
-	width: 170px;
-	height: 170px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	list-style: none;
-}
-
-
-
 
 .icons{
 	right: -30px;
@@ -574,4 +375,24 @@ img.icon-action{
 
 .icon-still{
 	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*shuffle categories*/
+
+
+#shuffle-cat ul{
+	list-style: none;
+}
+
+#shuffle-cat ul li{
+	display:inline-block;
 }
