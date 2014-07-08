@@ -25,4 +25,15 @@ window.location = linkLocation;
 }
 
 
+//icon hover effect
+$(".icon-still").mouseenter(function() {
+//debugger;
+$(this).find('.icon-action').fadeIn(300);
+});
+
+$(".icon-still").mouseleave(function() {
+$(this).find(".icon-action").fadeOut(300);
+});
+
+
 });

@@ -30,13 +30,13 @@ body{
 
 
 .icon-action{
-	top: -90px;
+	top: 35px;
 	position: absolute;
 }
 
 
 .resume-on{
-	left: 10px;
+	left: 7px;
 }
 
 .mail-on{
@@ -174,7 +174,7 @@ body{
 
 .work{
 	height:auto;
-	background-color: #ededed;
+	background-color: white;
 	text-align: center;
 }
 
@@ -221,7 +221,7 @@ body{
 
 
 .intro{
-	background-color: #7ec9ac;
+	/*background-color: #7ec9ac;*/
 	height:340px;
 	min-width: 1050px;
 	position: relative;
@@ -230,7 +230,7 @@ body{
 
 .intro-text{
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 55px;
 	/* padding-top: 120px; */
 	font-family: Haymaker, sans-serif;
@@ -543,15 +543,15 @@ body{
 
 
 .icons{
-	right: 0;
+	right: -30px;
 	position: absolute;
 	height: 50px;
-	bottom: 20px;
+	top: 20px;
 	
 }
 
 .icons img{
-	width: 40px;
+	width: 30px;
 }
 
 .icons ul{
@@ -566,7 +566,8 @@ body{
 }
 
 img.icon-action{
-	width:95px;
+	width: 90px;
+	height: 75px;
 	display: none;
 }
 
