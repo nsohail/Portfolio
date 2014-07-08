@@ -19,6 +19,19 @@ body{
   z-index:0;
 }
 
+
+.work-header{
+  height:260px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  /*background-image: url(../images/argan-head.jpg);*/
+  position: relative;
+  /*background-color: rgba(255, 170, 117, 0.8);*/
+}
+
+
 #left, #right{
   list-style: none;
   position:absolute;
@@ -107,11 +120,108 @@ body{
 }
 
 
-
-.glyphicon{
-  line-height: 1.4;
+.icons img{
+  width:35px;
 }
 
+.icons{
+  height:100%;
+}
+
+.icons img{
+  width: 40px;
+}
+
+.icons ul{
+  width: 275px;
+  margin:0;
+}
+
+.icons ul li{
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+}
+
+
+
+
+.work-title{
+  height:100%;
+  width:60%;
+  color:black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 95px;
+  float:left;
+}
+
+
+
+.logo{
+  background-image: url(../images/logo.png);
+  background-size: 80%;
+}
+
+.home{
+  background-image: url(../images/home.png);
+}
+
+.resume{
+  background-image: url(../images/resume.png);
+}
+
+.email{
+  background-image: url(../images/mail.png);
+}
+
+.linkedin{
+  background-image: url(../images/linked.png);
+}
+
+
+img.icon-action{
+  width: 90px;
+  height: 75px;
+  display: none;
+}
+
+.icon-still{
+  text-decoration: none;
+}
+
+.icon-action{
+  top: 35px;
+  position: absolute;
+}
+
+.resume-on{
+  left: -28px;
+}
+
+.mail-on{
+  left: 40px;
+}
+
+.linkedin-on{
+  left: 107px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*project content*/
 
 .left-image, .right-image, .middle-image{
   width:320px;
@@ -154,8 +264,6 @@ body{
 
 
 
-
-
 .work{
   height:auto;
   text-align: center;
@@ -166,105 +274,6 @@ body{
 
 
 
-.work-header{
-  height:260px;
-  width:100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 40px;
-  /*background-image: url(../images/argan-head.jpg);*/
-  position: relative;
-  /*background-color: rgba(255, 170, 117, 0.8);*/
-}
-
-
-/*
-.overlay{
-  background-color: rgba(255, 170, 117, 0.8);
-  width: 100%;
-  height: 100%;
-}
-*/
-
-.icons img{
-  width:35px;
-}
-
-.icons{
-  height:100%;
-}
-
-.icons img{
-  width: 40px;
-}
-
-.icons ul{
-  width: 275px;
-  margin:0;
-}
-
-.icons ul li{
-  display: inline-block;
-  width: 60px;
-  height: 50px;
-}
-
-
-#back-home{
-  position: absolute;
-  bottom: 180px;
-  left: 20px;
-  width:100px;
-  display: none;
-}
-
-
-
-.work-title{
-  height:100%;
-  width:60%;
-  color:black;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
-  font-size: 45px;
-  text-align: center;
-  padding-top: 95px;
-  float:left;
-}
-
-
-
-@-webkit-keyframes cycle1 {
-   0% { opacity: 1; }
-   25% { opacity: 1; }
-   70% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes cycle2 {
-  0% { opacity: 0; }
-   15% { opacity: 0; }
-   25% { opacity: 1; }
-   50% { opacity: 1; }
-   75% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes cycle3 {
-   0% { opacity: 0; }
-   35% { opacity: 0; }
-   50% { opacity: 1; }
-   75% { opacity: 1; }
-   90% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes cycle4 {
-  0% { opacity: 0; }
-   65% { opacity: 0; }
-   75% { opacity: 1; }
-  100% { opacity: 1; }
-}
 
 
 
@@ -273,8 +282,7 @@ body{
 
 
 
-
-
+/*Carousel*/
 
 #myCarousel{
   margin: auto;
@@ -362,93 +370,4 @@ right: 40%;
 
 ul,ol{
   margin-bottom: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navbar{
-  overflow:hidden;
-  top: 0;
-  position: fixed;
-  left: 0;
-  z-index: 900;
-  height:100%;
-  background-color: #D8CEC3;
-}
-
-
-
-
-.base{
-  overflow: visible;
-  /*border-bottom: 1px solid #363636;*/
-  position: relative;
-  /* cursor: pointer; */
-  width: 80px;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 50%;
-}
-
-
-
-.logo{
-  background-image: url(../images/logo.png);
-  background-size: 80%;
-}
-
-.home{
-  background-image: url(../images/home.png);
-}
-
-.resume{
-  background-image: url(../images/resume.png);
-}
-
-.email{
-  background-image: url(../images/mail.png);
-}
-
-.linkedin{
-  background-image: url(../images/linked.png);
-}
-
-
-img.icon-action{
-  width: 90px;
-  height: 75px;
-  display: none;
-}
-
-.icon-still{
-  text-decoration: none;
-}
-
-.icon-action{
-  top: 35px;
-  position: absolute;
-}
-
-.resume-on{
-  left: -28px;
-}
-
-.mail-on{
-  left: 40px;
-}
-
-.linkedin-on{
-  left: 107px;
 }

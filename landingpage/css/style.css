@@ -6,31 +6,100 @@
 body{
   margin:auto;
   width:100%;
-  background-color: #D8CEC3;
+  /*background-color: #D8CEC3;*/
 }
 
 .main{
   min-width: 1050px;
-  left: 80px;
+  /*left: 80px;*/
   position: absolute;
   width: 100%;
-  top: 0;
-  background-color: #ededed;
+  top: 80px;
+  background-color: white;
   z-index:0;
 }
 
 
+.work-header{
+  height:260px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  /*background-image: url(../images/argan-head.jpg);*/
+  position: relative;
+  /*background-color: rgba(255, 170, 117, 0.8);*/
+}
 
+
+#left, #right{
+  list-style: none;
+  position:absolute;
+  top:20px;
+  padding:0;
+}
+
+#left{
+  left:30px;
+}
+
+#right{
+  right:30px;
+}
+
+#right a:hover{
+  text-decoration: none;
+}
+
+#left img{
+  width:50px;
+}
+
+
+#left li, #right li{
+  display:inline-block;
+  padding-right: 30px;
+}
+
+#right li{
+  padding-top: 6px;
+}
+
+.navigation{
+  width:100%;
+  height:80px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  position:fixed;
+  z-index: 900;
+  background-color: white;
+}
+
+.navigation a{
+  color:black;
+}
+
+.navigation a:active{
+  color:black;
+  text-decoration: underline;
+}
 
 .previous-page{
   width: 20%;
   height: 70px;
   z-index: 600;
-  top: 89px;
-  font-size: 50px;
+  left: 0;
+  /* font-size: 50px; */
   text-align: center;
-  color: rgba(255, 255, 255, 0.62);
-  float:left;
+  top: 89px;
+  /* color: rgba(255, 255, 255, 0.62); */
+  float: left;
+  position: relative;
+  background-image: url(../images/left-arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 
 .next-page{
@@ -38,18 +107,121 @@ body{
   height: 70px;
   z-index: 600;
   right: 0;
-  font-size: 50px;
+  /* font-size: 50px; */
   text-align: center;
   top: 89px;
-  color: rgba(255, 255, 255, 0.62);
+  /* color: rgba(255, 255, 255, 0.62); */
+  float: left;
+  position: relative;
+  background-image: url(../images/right-arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+
+
+.icons img{
+  width:35px;
+}
+
+.icons{
+  height:100%;
+}
+
+.icons img{
+  width: 40px;
+}
+
+.icons ul{
+  width: 275px;
+  margin:0;
+}
+
+.icons ul li{
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+}
+
+
+
+
+.work-title{
+  height:100%;
+  width:60%;
+  color:black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 95px;
   float:left;
 }
 
 
-.glyphicon{
-  line-height: 1.4;
+
+.logo{
+  background-image: url(../images/logo.png);
+  background-size: 80%;
 }
 
+.home{
+  background-image: url(../images/home.png);
+}
+
+.resume{
+  background-image: url(../images/resume.png);
+}
+
+.email{
+  background-image: url(../images/mail.png);
+}
+
+.linkedin{
+  background-image: url(../images/linked.png);
+}
+
+
+img.icon-action{
+  width: 90px;
+  height: 75px;
+  display: none;
+}
+
+.icon-still{
+  text-decoration: none;
+}
+
+.icon-action{
+  top: 35px;
+  position: absolute;
+}
+
+.resume-on{
+  left: -28px;
+}
+
+.mail-on{
+  left: 40px;
+}
+
+.linkedin-on{
+  left: 107px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*project content*/
 
 .left-image, .right-image, .middle-image{
   width:320px;
@@ -92,8 +264,6 @@ body{
 
 
 
-
-
 .work{
   height:auto;
   text-align: center;
@@ -104,103 +274,6 @@ body{
 
 
 
-.work-header{
-  height:240px;
-  width:100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 40px;
-  background-image: url(../images/argan-head.jpg);
-  position: relative;
-  
-}
-
-.overlay{
-  background-color: rgba(255, 170, 117, 0.8);
-  width: 100%;
-  height: 100%;
-}
-
-
-.icons img{
-  width:35px;
-}
-
-.icons{
-  height:100%;
-}
-
-.icons img{
-  width: 40px;
-}
-
-.icons ul{
-  width: 275px;
-  margin:0;
-}
-
-.icons ul li{
-  display: inline-block;
-  width: 60px;
-  height: 50px;
-}
-
-
-#back-home{
-  position: absolute;
-  bottom: 180px;
-  left: 20px;
-  width:100px;
-  display: none;
-}
-
-
-
-.work-title{
-  height:100%;
-  width:60%;
-  color:white;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
-  font-size: 45px;
-  text-align: center;
-  padding-top: 95px;
-  float:left;
-}
-
-
-
-@-webkit-keyframes cycle1 {
-   0% { opacity: 1; }
-   25% { opacity: 1; }
-   70% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes cycle2 {
-  0% { opacity: 0; }
-   15% { opacity: 0; }
-   25% { opacity: 1; }
-   50% { opacity: 1; }
-   75% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes cycle3 {
-   0% { opacity: 0; }
-   35% { opacity: 0; }
-   50% { opacity: 1; }
-   75% { opacity: 1; }
-   90% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes cycle4 {
-  0% { opacity: 0; }
-   65% { opacity: 0; }
-   75% { opacity: 1; }
-  100% { opacity: 1; }
-}
 
 
 
@@ -209,8 +282,7 @@ body{
 
 
 
-
-
+/*Carousel*/
 
 #myCarousel{
   margin: auto;
@@ -280,6 +352,15 @@ right: 40%;
 }
 
 
+.left, .right{
+  color:rgba(0, 0, 0, 1);
+}
+
+.left:hover, .right:hover{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
 
 @media screen and (min-width: 900px){
 .glyphicon-circle-arrow-left{
@@ -289,65 +370,4 @@ right: 40%;
 
 ul,ol{
   margin-bottom: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navbar{
-  overflow:hidden;
-  top: 0;
-  position: fixed;
-  left: 0;
-  z-index: 900;
-  height:100%;
-  background-color: #D8CEC3;
-}
-
-
-
-
-.base{
-  overflow: visible;
-  /*border-bottom: 1px solid #363636;*/
-  position: relative;
-  /* cursor: pointer; */
-  width: 80px;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 50%;
-}
-
-
-
-.logo{
-  background-image: url(../images/logo.png);
-  background-size: 80%;
-}
-
-.home{
-  background-image: url(../images/home.png);
-}
-
-.resume{
-  background-image: url(../images/resume.png);
-}
-
-.email{
-  background-image: url(../images/mail.png);
-}
-
-.linkedin{
-  background-image: url(../images/linked.png);
 }
