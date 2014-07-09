@@ -10,24 +10,28 @@ body{
 
 
 body::before {
-display:none;
+	display:none;
+}
+
+.main{
+	width:100%;
 }
 
 
 
-.navbar{
-	position:fixed;
-	top:0;
-	left:0;
-	z-index: 1000;
-	width: 150px;
-  	background-color:#f5ebde;
-  	height:100%;
-  	display:none;
-}
 
 
 
+
+
+
+
+
+
+
+
+
+/* Top right icons */
 
 .icon-action{
 	top: 35px;
@@ -48,10 +52,6 @@ display:none;
 }
 
 
-
-
-
-
 .icons{
 	height:100%;
 }
@@ -61,23 +61,11 @@ display:none;
 
 
 
-.work{
-	height:auto;
-	background-color: white;
-	text-align: center;
-}
-
-.work-rows{
-	width:100%;
-}
-
-
-
 
 .intro{
 	/*background-color: #7ec9ac;*/
 	height:340px;
-	min-width: 1050px;
+	/*min-width: 1050px;*/
 	position: relative;
 }
 
@@ -89,7 +77,7 @@ display:none;
 	padding-top: 150px;
 	font-family: Haymaker, sans-serif;
 	font-weight: 300;
-	width: 490px;
+	width: 100%;
 	margin: auto;
 	/* float: left; */
 	line-height: 40px;
@@ -104,108 +92,6 @@ display:none;
 
 
 
-.row{
-	min-width: 1050px;
-	width:100%;
-	margin: auto;
-	height: 300px;
-}
-
-.row ul{
-	display: block;
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 0px;
-}
-
-.project{
-	float: left;
-	position: relative;
-	height: 300px;
-	min-width: 350px;
-	width:33.33%;
-	background-color:black;
-	overflow: hidden;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-}
-
-
-
-
-.filter-opt{
-	float:left;
-	padding-right: 15px;
-	padding-left:15px;
-	font-size: 13px;
-	border-right: black 1px solid;
-	cursor: pointer;
-	color: rgb(190, 190, 190);
-}
-
-.filter-opt:hover{
-	color:black;
-}
-
-.first{
-	padding-left: 0;
-}
-
-.last{
-	border:none;
-}
-
-.span6{
-	width:100%;
-	margin-left: 0;
-}
-
-.row{
-	height: 50px;
-}
-
-.row-1 .project-1{
-	background-image:url(images/landing-thumb.jpg);
-	background-color: #d9544d;
-}
-
-.row-1 .project-1 .bottom{
-	background-color: #D86F6E;
-}
-
-.row-1 .project-1 .mask{
-	background-color: #D86F6E;
-}
-
-
-.row-1 .project-2{
-	background-image:url(images/argan-thumb.jpg);
-	background-color: #3d3630;	
-}
-
-.row-1 .project-2 .bottom{
-	background-color: #FFB587;
-}
-
-.row-1 .project-2 .mask{
-	background-color: #FFB587;
-}
-
-
-.row-1 .project-3{
-	background-image:url(images/shopping-thumb.jpg);
-	background-color: #9ab85e;
-}
-
-.row-1 .project-3 .bottom{
-	background-color: #B4D089;
-}
-
-.row-1 .project-3 .mask{
-	background-color: #B4D089;
-}
 
 
 
@@ -214,52 +100,6 @@ display:none;
 
 
 
-.row-2 .project-1{
-	background-image:url(images/api-thumb.jpg);
-	background-color: #ff8901;
-}
-
-.row-2 .project-1 .bottom{
-	background-color: #E1A25C;
-}
-
-.row-2 .project-1 .mask{
-	background-color: #E1A25C;
-}
-
-.row-2 .project-2{
-	background-image:url(images/rays-thumb.jpg);
-	background-size: cover;
-}
-
-.row-2 .project-2 .bottom{
-	background-color: #88C7C1;
-}
-
-.row-2 .project-2 .mask{
-	background-color: #88C7C1;
-}
-
-
-.row-2 .project-3{
-	background-image:url(images/globe-thumb.jpg);
-	background-color: #d94231;
-}
-
-.row-2 .project-3 .bottom{
-	background-color: #D56B66;
-}
-
-.row-2 .project-3 .mask{
-	background-color: #D56B66;
-}
-
-
-
-.row-3 .project-1{
-	background-image:url(images/quiz-thumb.jpg);
-	background-color: #c9d16e;
-}
 
 
 
@@ -268,7 +108,7 @@ display:none;
 
 
 .icons{
-	right: -30px;
+	right: 0px;
 	position: absolute;
 	height: 50px;
 	top: 20px;
@@ -280,7 +120,7 @@ display:none;
 }
 
 .icons ul{
-	width: 275px;
+	width: 250px;
 	margin:0;
 }
 
@@ -317,10 +157,108 @@ section.gallery.container{
 /*shuffle categories*/
 
 
+.row{
+	/*min-width: 1050px;*/
+	width:100%;
+	margin: auto;
+	height: 30px;
+}
+
 #shuffle-cat ul{
 	list-style: none;
 }
 
 #shuffle-cat ul li{
 	display:inline-block;
+}
+
+
+.filter-opt{
+	float:left;
+	padding-right: 15px;
+	padding-left:15px;
+	font-size: 13px;
+	border-right: black 1px solid;
+	cursor: pointer;
+	color: rgb(190, 190, 190);
+}
+
+.filter-opt:hover{
+	color:black;
+}
+
+.first{
+	padding-left: 0;
+}
+
+.last{
+	border:none;
+}
+
+.span6{
+	width:100%;
+	margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 50em){
+
+.container {
+	width:650px;
+}
+
+img{
+	width:100%;
+}
+
+.span3{
+	width:100%;
+}
+
+}
+
+
+
+@media (max-width: 45em){
+
+.container {
+	width:510px;
+}
+
+img{
+	width:100%;
+}
+
+.span3{
+	width:100%;
+}
+
+}
+
+
+@media (max-width: 40em){
+
+.container {
+	width:400px;
+}
+
+img{
+	width:100%;
+}
+
+.span3{
+	width:100%;
+}
+
+.filter-opt{
+	font-size:11px;
+}
+
 }
