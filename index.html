@@ -7,9 +7,10 @@
 
 
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="http://vestride.github.io/Shuffle/dist/jquery.shuffle.modernizr.js"></script>
 
+<link rel="stylesheet" href="http://vestride.github.io/Shuffle/css/style.css" />
+<link rel="stylesheet" href="http://vestride.github.io/Shuffle/css/gallery.css" />  
+<link rel="stylesheet" href="style.css"/> 
 
 </head>
 
@@ -40,82 +41,93 @@
 		</div>
 		</div>
 
-		<div id="shuffle-cat">
-			<ul>
-				<li>UI Design</li>
-				<li>Graphic Design</li>
-				<li>Web Development</li>
-			</ul>
-		</div>
+	
+
+		<section class="gallery container">
+
+		  <div class="filter-options row">
+
+		    <div class="span6">
+		      <div class="filter-group filter--colors js-colors">
+		        <div class="filter-opt first" data-filter-value="ui design">UI Design</div>
+		        <div class="filter-opt" data-filter-value="front end development">Web Development</div>
+		        <div class="filter-opt" data-filter-value="branding">Branding</div>
+		        <div class="filter-opt last" data-filter-value="print design">Print Design</div>
+		      </div>
+		    </div>
+
+		  </div>
 
 
-		<div class="work">
-			<div class="work-rows">
-
-			<div class="row row-1">
-				<div class="project project-1" data-groups='["Web Development"]'>
-					<a href="landingpage/index.html" class="link">
-					<div class="bottom">LANDING PAGE</div>
-					<div class="mask"></div>
-					</a>
-				</div>
-
-				<div class="project project-2" data-groups='["UI Design"]'>
-					<a href="jabargan/index.html" class="link">
-					<div class="bottom">JAB'ARGAN</div>
-					<div class="mask">
-					</div>
-					</a>
-					
-				</div>
-
-				<div class="project project-3" data-groups='["Graphic Design"]'>
-					<a href="#" class="link"><div class="bottom">SHOPPING LIST</div></a>
-					<div class="mask"></div>
-				</div>
-			
-			</div><!--row 1 ends-->
-
-			<div class="row row-2">
-			
-				
-				<div class="project project-1">
-					<a href="#" class="link"><div class="bottom">TASTEOGRAPHY</div></a>
-					<div class="mask"></div>
-				</div>
-
-				<div class="project project-2">
-					<a href="rays/index.html" class="link">
-					<div class="bottom">RAY'S HELL BURGER</div>
-					<div class="mask"></div>
-					</a>
-				</div>
-
-				<div class="project project-3">
-					<a href="#" class="link"><div class="bottom">MAGA GLOBE</div></a>
-					<div class="mask"></div>
-				</div>
-			
-			</div><!--row 2 ends-->
-
-			<div class="row row-3">
-			
-				<div class="project project-1">
-					<a href="#" class="link"><div class="bottom">QUIZ</div></a>
-					<div class="mask"></div>
-				</div>
-
-				
 
 
-			
-			</div><!--row 3 ends-->
-			</div><!--work rows ends-->
+
+		  <div class="shape-up js-shuffle">
+		    
+		    <div class="span3 shape" data-type="ui design">
+		      <a href="landingpage/index.html"><img src="images/landing-thumb.jpg"></a>
+		    </div>
 
 
-		</div><!--work ends-->
 
-	</div>
+		    <div class="span3 shape" data-type="branding">
+		      <a href="jabargan/index.html" class="link"><img src="images/argan-thumb.jpg"></a>
+		    </div>
+		    
+		    <div class="span3 shape" data-type="front end development">
+		      <a href="#" class="link"><img src="images/shopping-thumb.jpg"></a>
+		    </div>
+		    
+		    <div class="span3 shape" data-type="front end development">
+		      <a href="#" class="link"><img src="images/api-thumb.jpg"></a>
+		    </div>
+		    
+		    <div class="span3 shape" data-type="ui design">
+		      <a href="rays/index.html" class="link"><img src="images/rays-thumb.jpg"></a>
+		    </div>
+		    
+		    <div class="span3 shape" data-type="ui design">
+		      <a href="#" class="link"><img src="images/globe-thumb.jpg"></a>
+		    </div>
+		    
+		     <div class="span3 shape" data-type="front end development">
+		      <a href="#" class="link"><img src="images/quiz-thumb.jpg"></a>
+		    </div>
+		 
+		  </div>
+
+		</section>
+
+
+
+<!--<!jquery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<!-- Shuffle! -->
+
+<!-- Shuffle & Modernizr! -->
+<script src="shuffle.js"></script>
+
+
+
+
+
+<script src="http://vestride.github.io/Shuffle/js/evenheights.js"></script>
+
+<script src="sort.js"></script>
+
+<script src="app.js"></script>
+
+
+
+
+
+
+
+
+		
+
+	</div><!--main ends-->
 
 
 <script src="app.js"></script>
