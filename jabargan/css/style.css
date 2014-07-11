@@ -52,13 +52,13 @@ body{
 }
 
 #left img{
-  width:50px;
+  width:35px;
 }
 
 
 #left li, #right li{
   display:inline-block;
-  padding-right: 30px;
+  padding-right: 25px;
 }
 
 #right li{
@@ -73,7 +73,7 @@ body{
   font-weight: 600;
   position:fixed;
   z-index: 900;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.76);
 }
 
 .navigation a{

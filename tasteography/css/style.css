@@ -223,29 +223,9 @@ img.icon-action{
 
 /*project content*/
 
-.left-image, .right-image, .middle-image{
-  width:320px;
-  height:270px;
-  float:left;
-  /*border-radius: 8px;*/
-  /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
-  margin-right: 32px;
-  margin-bottom: 50px;
-}
-
-
-
-.left-image{
-  background-image: url(../images/jab-argan-reg.png);
-}
-
-.middle-image{
-  background-image: url(../images/jab-argan-vitamin.png);
-}
-
-.right-image{
-  background-image: url(../images/jab-argan-pomegranate.png);
-  margin-right: 0;
+.frame{
+  margin-top: -38px;
+  /*border: 4px solid rgb(206, 125, 125);*/
 }
 
 
