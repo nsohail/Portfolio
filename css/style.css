@@ -188,7 +188,7 @@ section.gallery.container{
 	padding-right: 15px;
 	padding-left:15px;
 	font-size: 13px;
-	border-right: black 1px solid;
+	border-right: rgb(166, 165, 165) 1px solid;
 	cursor: pointer;
 	color: rgb(190, 190, 190);
 }
