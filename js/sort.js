@@ -125,7 +125,7 @@ Exports.Modules.Gallery = (function($, undefined) {
     }
 
     // If a colors filter is active
-    if ( colors.length > 0 && !valueInArray(data.type, colors) ) {
+    if ( colors.length > 0 && !valueInArray(data.groups, colors) ) {
       return false;
     }
 

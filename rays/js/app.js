@@ -3,9 +3,9 @@ var newLocation;
 $(document).ready(function(){
 
 //fade effect
-$('body').css('display', 'none');
+$('.main').css('display', 'none');
 
-$('body').fadeIn(2000);
+$('.main').fadeIn(2000);
 
 
 $('.link').click(function() {
