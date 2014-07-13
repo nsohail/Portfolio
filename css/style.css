@@ -169,7 +169,7 @@ section.gallery.container{
 
 .row{
 	/*min-width: 1050px;*/
-	width:100%;
+	width:505px;
 	margin: auto;
 	height: 30px;
 }
@@ -203,6 +203,7 @@ section.gallery.container{
 
 .last{
 	border:none;
+	padding-right: 0px;
 }
 
 .span6{
@@ -236,21 +237,7 @@ img{
 
 
 
-@media (max-width: 45em){
 
-.container {
-	width:510px;
-}
-
-img{
-	width:100%;
-}
-
-.span3{
-	width:100%;
-}
-
-}
 
 
 @media (max-width: 40em){
@@ -268,7 +255,17 @@ img{
 }
 
 .filter-opt{
-	font-size:11px;
+	font-size:10px;
+}
+
+.row{
+	width: 380px;
+	height: 43px;
+}
+
+.last{
+	line-height: 31px;
+	padding-left: 0;
 }
 
 }
