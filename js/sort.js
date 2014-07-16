@@ -109,9 +109,12 @@ Exports.Modules.Gallery = (function($, undefined) {
 
   filter = function() {
     if ( hasActiveFilters() ) {
+      /*
       $grid.shuffle('shuffle', function($el) {
         return itemPassesFilters( $el.data() );
       });
+      */
+      $grid.shuffle('shuffle', colors[0]);
     } else {
       $grid.shuffle( 'shuffle', 'all' );
     }
