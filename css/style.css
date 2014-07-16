@@ -255,6 +255,7 @@ img{
 
 .shape:hover .hoverbox{
 	opacity: 1;
+	text-decoration: none;
 }
 
 .shape:hover .hovercontent{
