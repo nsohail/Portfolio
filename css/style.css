@@ -93,27 +93,6 @@ footer p{
 
 }
 
-.josefin{
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 300;
-	font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -273,3 +252,42 @@ img{
 
 
 
+
+.shape:hover .hoverbox{
+	opacity: 1;
+}
+
+.shape:hover .hovercontent{
+	color:white;
+	opacity: 1.7;
+}
+
+.hoverbox{
+	opacity:0;
+	width:100%;
+	height:100%;
+	background:rgba(34, 34, 34, 0.9);
+	position:absolute;
+	-webkit-transition: opacity .2s ease-out;
+}
+
+.hovercontent{
+	text-align: center;
+	margin-top: 35%;
+	font-size: 90%;
+	-webkit-transition: all .2s ease-out;
+	color: rgba(255, 255, 255, 0.71);
+	opacity: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	padding: 8px;
+	letter-spacing: 2px;
+	line-height: 18px;
+}
+
+
+.type{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70%;
+	font-weight: 100;
+}
