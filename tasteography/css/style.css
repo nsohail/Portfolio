@@ -239,7 +239,14 @@ a:hover{
 img.icon-action{
   width: 90px;
   height: 75px;
-  display: none;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-out;
+  -webkit-transform: translateY(-8px);
+}
+
+.icon-still:hover .icon-action{
+  -webkit-transform: translateY(0px);
+  opacity: 1;
 }
 
 .icon-still{
@@ -256,12 +263,14 @@ img.icon-action{
 }
 
 .mail-on{
-  left: 40px;
+  left: 35px;
 }
 
 .linkedin-on{
-  left: 107px;
+  left: 98px;
 }
+
+
 
 
 

@@ -43,15 +43,15 @@ footer p{
 
 
 .resume-on{
-	left: 7px;
+	left: 10px;
 }
 
 .mail-on{
-	left: 79px;
+	left: 82px;
 }
 
 .linkedin-on{
-	left: 148px;
+	left: 152px;
 }
 
 
@@ -122,7 +122,9 @@ footer p{
 img.icon-action{
 	width: 90px;
 	height: 75px;
-	display: none;
+	opacity: 0;
+	-webkit-transition: all 0.25s ease-out;
+	-webkit-transform: translateY(-30px);
 }
 
 
@@ -130,9 +132,15 @@ img.icon-action{
 	text-decoration: none;
 }
 
+.icon-still:hover .icon-action{
+	-webkit-transform: translateY(0px);
+	opacity: 1;
+}
+
 
 .icons a:hover{
 	text-decoration: none;
+	
 }
 
 
