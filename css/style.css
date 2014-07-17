@@ -207,6 +207,7 @@ section.gallery.container{
 	color:white;
 	opacity: 1.7;
 	font-size: 18px; 
+	padding: 15px;
 }
 
 .hoverbox{
@@ -220,16 +221,16 @@ section.gallery.container{
 
 .hovercontent{
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 28%;
 	font-size: 28px;
 	-webkit-transition: all .2s ease-out;
 	color: rgba(255, 255, 255, 0.71);
 	opacity: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
-	padding: 20px;
+	padding: 0px;
 	letter-spacing: 2px;
-	line-height: 18px;
+	line-height: 19px;
 }
 
 
@@ -241,7 +242,22 @@ section.gallery.container{
 
 
 
+@media (max-width: 61.1875em) and (min-width: 48em){
 
+.shape:hover .hovercontent{
+	font-size: 14px;
+	padding:20px; 
+	line-height: 15px;
+}
+
+.hovercontent{
+	margin-top: 22%;
+	font-size: 24px;
+	padding:0;
+
+}
+
+}
 
 
 @media (min-width: 75em){
@@ -253,7 +269,7 @@ section.gallery.container{
 }
 
 .hovercontent{
-	margin-top: 22%;
+	margin-top: 24%;
 	font-size: 34px;
 	padding:0;
 
