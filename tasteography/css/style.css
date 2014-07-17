@@ -12,6 +12,9 @@ body{
 outline: none;
 }
 
+a:hover{
+  text-decoration: none;
+}
 
 .main{
   min-width: 1050px;
@@ -24,11 +27,10 @@ outline: none;
 
 
 .work-header{
-  height:260px;
+  height:220px;
   width:100%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 40px;
   position: relative;
 }
 
@@ -144,6 +146,34 @@ outline: none;
 }
 
 
+
+.visit{
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgb(173, 163, 163);
+  padding: 8px 10px 8px 10px;
+  width: 145px;
+  margin: auto;
+}
+
+.visit-hover{
+  width: 157px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 6px;
+  margin:auto;
+}
+
+.visit-hover:hover{
+  background-color: #F5F6EB;
+  text-decoration: none;
+}
+
+
+
 .icons img{
   width:35px;
 }
@@ -247,43 +277,63 @@ img.icon-action{
 
 /*project content*/
 
-.left-image, .right-image, .middle-image{
-  width:320px;
-  height:270px;
+.left-image, .right-image{
+  width:497px;
   float:left;
+  height:318px;
   /*border-radius: 8px;*/
   /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
-  margin-right: 32px;
-  margin-bottom: 50px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 
 
 .left-image{
-  background-image: url(../images/jab-argan-reg.png);
+  background-image: url(../images/card_1.jpg);
 }
 
-.middle-image{
-  background-image: url(../images/jab-argan-vitamin.png);
-}
 
 .right-image{
-  background-image: url(../images/jab-argan-pomegranate.png);
+  background-image: url(../images/card_2.jpg);
   margin-right: 0;
 }
 
 
-.brochure-image{
+.full-image{
   width: 1024px;
-  height: 331px;
   clear: both;
   margin-bottom: 50px;
 }
 
+.sub-title{
+  font-size: 24px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgb(173, 163, 163);
+  padding: 8px 10px 8px 10px;
+  width: 145px;
+  margin-bottom: 15px;
+}
+
+.outside{
+  background-color: #F5F6EB;
+  width: 157px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 6px;
+}
+
+
+
+
 .wrap{
   width:1024px;
   margin:auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 
@@ -312,7 +362,7 @@ img.icon-action{
   margin: auto;
   width: 1024px;
   height: 640px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .carousel-inner{
@@ -394,4 +444,9 @@ right: 40%;
 
 ul,ol{
   margin-bottom: 0px;
+}
+
+
+.frame{
+  margin-top: -30px;
 }
