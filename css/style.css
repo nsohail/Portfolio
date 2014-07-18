@@ -6,6 +6,7 @@
 body{
 	margin:auto;
 	width:100%;
+	margin-top: -20px;
 }
 
 
@@ -100,7 +101,7 @@ footer p{
 	right: 0px;
 	position: absolute;
 	height: 50px;
-	top: 20px;
+	top: 45px;
 	
 }
 
