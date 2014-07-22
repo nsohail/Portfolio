@@ -24,13 +24,13 @@ outline: none;
 
 
 .work-header{
-  height:260px;
+  height:220px;
   width:100%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 40px;
   position: relative;
 }
+
 
 
 
@@ -144,6 +144,33 @@ outline: none;
 }
 
 
+.visit{
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgb(173, 163, 163);
+  padding: 8px 10px 8px 10px;
+  width: 145px;
+  margin: auto;
+}
+
+.visit-hover{
+  width: 157px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 6px;
+  margin:auto;
+}
+
+.visit-hover:hover{
+  background-color: #F5F6EB;
+  text-decoration: none;
+}
+
+
+
 .icons img{
   width:35px;
 }
@@ -211,7 +238,7 @@ img.icon-action{
   height: 75px;
   opacity: 0;
   -webkit-transition: all 0.25s ease-out;
-  -webkit-transform: translateY(-8px);
+  -webkit-transform: translateY(-20px);
 }
 
 .icon-still:hover .icon-action{
@@ -278,12 +305,36 @@ img.icon-action{
 }
 
 
-.brochure-image{
+
+
+.full-image{
   width: 1024px;
-  height: 331px;
   clear: both;
   margin-bottom: 50px;
 }
+
+
+.sub-title{
+  font-size: 24px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgb(173, 163, 163);
+  padding: 8px 10px 8px 10px;
+  width: 145px;
+  margin-bottom: 15px;
+}
+
+.outside{
+  background-color: #F5F6EB;
+  width: 157px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 6px;
+}
+
 
 .wrap{
   width:1024px;

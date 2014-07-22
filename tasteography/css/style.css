@@ -241,7 +241,7 @@ img.icon-action{
   height: 75px;
   opacity: 0;
   -webkit-transition: all 0.25s ease-out;
-  -webkit-transform: translateY(-8px);
+  -webkit-transform: translateY(-20px);
 }
 
 .icon-still:hover .icon-action{
