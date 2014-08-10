@@ -83,12 +83,12 @@ a:hover{
 }
 
 .dropdown-menu>li>a{
-  padding:12px 65px 12px 15px;
+  padding:15px 65px 12px 15px;
 }
 
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+.dropdown-menu{
+  padding: 0px 0px;
 }
-
 
 .navigation{
   width:100%;
@@ -467,3 +467,10 @@ right: 40%;
 ul,ol{
   margin-bottom: 0px;
 }
+
+
+
+
+
+
+
