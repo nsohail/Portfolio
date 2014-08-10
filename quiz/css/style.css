@@ -173,7 +173,9 @@ outline: none;
   text-decoration: none;
 }
 
-
+a:hover{
+  text-decoration: none;
+}
 
 .icons img{
   width:35px;
