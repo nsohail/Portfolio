@@ -372,9 +372,12 @@ img{
 
 }
 
+
+/* FOR CELL PHONES */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.filter-opt{
-		color:Red;
+
+	.container {
+	width:100%;
 	}
 
 }
