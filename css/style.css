@@ -125,7 +125,11 @@ img.icon-action{
 	height: 75px;
 	opacity: 0;
 	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
 	-webkit-transform: translateY(-20px);
+	-ms-transform: translateY(-20px);
+	transform: translateY(-20px);
 }
 
 
@@ -135,6 +139,8 @@ img.icon-action{
 
 .icon-still:hover .icon-action{
 	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	-ms-transform: translateY(0px);
 	opacity: 1;
 }
 
@@ -226,6 +232,8 @@ section.gallery.container{
 	background:rgba(34, 34, 34, 0.9);
 	position:absolute;
 	-webkit-transition: opacity .2s ease-out;
+	transition: opacity .2s ease-out;
+	-ms-transition: opacity .2s ease-out;
 }
 
 .hovercontent{
@@ -233,6 +241,8 @@ section.gallery.container{
 	margin-top: 28%;
 	font-size: 28px;
 	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
 	color: rgba(255, 255, 255, 0.71);
 	opacity: 0;
 	font-family: 'Josefin Sans', sans-serif;
@@ -361,3 +371,11 @@ img{
 }
 
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.filter-opt{
+		color:Red;
+	}
+
+}
+
