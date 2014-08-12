@@ -375,19 +375,8 @@ img{
 
 /* FOR CELL PHONES */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.main{
-		min-width:320px;
-		max-width:480px;
-	}
 
-	.intro{
-		width:100%;
-	}
 
-	.row{
-		width:100%;
-	}
-	
 
 }
 
