@@ -391,7 +391,8 @@ img{
 
 .container{
 	width: 100%;
-	margin-bottom: 0;
 }
 
+section.gallery.container{
+	margin-bottom: 0;
 }
