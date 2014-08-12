@@ -1187,7 +1187,7 @@ Shuffle.options = {
   delimeter: null, // if your group is not json, and is comma delimeted, you could set delimeter to ','
   buffer: 0, // useful for percentage based heights when they might not always be exactly the same (in pixels)
   initialSort: null, // Shuffle can be initialized with a sort object. It is the same object given to the sort method
-  throttle: throttle, // By default, shuffle will try to throttle the resize event. This option will change the method it uses
+  throttle: throttle || null, // By default, shuffle will try to throttle the resize event. This option will change the method it uses
   throttleTime: 300, // How often shuffle can be called on resize (in milliseconds)
   sequentialFadeDelay: 150, // Delay between each item that fades in when adding items
   supported: CAN_TRANSITION_TRANSFORMS // supports transitions and transforms
