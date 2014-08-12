@@ -394,7 +394,7 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: blue;
-	min-width: 320px;
+	width: 480px;
 }
 }
 
