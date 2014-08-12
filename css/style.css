@@ -376,7 +376,9 @@ img{
 /* FOR CELL PHONES */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-
+.row{
+	width:320px;
+}
 
 }
 
