@@ -391,10 +391,8 @@ img{
 }
 
 .container{
-	margin-left: auto;
-	margin-right: auto;
 	background-color: blue;
-	width: 480px;
+	width: 100%;
 }
 }
 
