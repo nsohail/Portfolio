@@ -381,13 +381,17 @@ img{
 }
 
 .filter-opt{
-	width:20%;
+	width:18%;
 	text-align: center;
 	padding:0;
 }
 
 .last{
 	line-height: normal;
+}
+
+.mobile{
+	width:23%;
 }
 
 
