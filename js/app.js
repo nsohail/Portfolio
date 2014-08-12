@@ -2,6 +2,7 @@ var newLocation;
 
 $(document).ready(function(){
 
+$('.js-colors div:first-child').trigger('click');
 
 
 //fade effect

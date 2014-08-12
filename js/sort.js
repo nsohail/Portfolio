@@ -115,6 +115,8 @@ Exports.Modules.Gallery = (function($, undefined) {
       });
       */
       $grid.shuffle('shuffle', colors[0]);
+    }else {
+      $grid.shuffle('shuffle', 'all');
     }
   },
 
