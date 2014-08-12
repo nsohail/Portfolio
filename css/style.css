@@ -382,8 +382,7 @@ img{
 
 
 .span3{
-	min-width:320px;
-	max-width:480px;
+	width:100%;
 }
 
 .shape-up{
@@ -394,12 +393,5 @@ img{
 	width: 100%;
 	margin-bottom: 0;
 }
-}
 
-
-@media only screen and (min-width : 321px) {
-.container{
-	width: 480px;
-	margin-bottom: 0;
-}
 }
