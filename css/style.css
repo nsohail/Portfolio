@@ -389,5 +389,10 @@ img{
 .shape-up{
 	width:100%;
 }
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+}
 }
 
