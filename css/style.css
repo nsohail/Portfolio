@@ -386,6 +386,10 @@ img{
 	padding:0;
 }
 
+.last{
+	line-height: normal;
+}
+
 
 .span3{
 	width:100%;
