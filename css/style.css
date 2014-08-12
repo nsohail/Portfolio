@@ -391,8 +391,8 @@ img{
 }
 
 .container{
-	background-color: blue;
 	width: 100%;
+	margin-bottom: 0;
 }
 }
 
@@ -400,5 +400,6 @@ img{
 @media only screen and (min-width : 321px) {
 .container{
 	width: 480px;
+	margin-bottom: 0;
 }
 }
