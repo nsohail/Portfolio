@@ -1,8 +1,11 @@
-var newLocation;
+//var newLocation;
 
 $(document).ready(function(){
 
-
+location.reload(function(){
+	$('.js-colors div:first-child').trigger('click');
+	alert('ok');
+});
 
 
 //fade effect
@@ -27,7 +30,7 @@ window.location = linkLocation;
 
 }
 
-$('.js-colors div:first-child').trigger('click');
+
 
 
 // //icon hover effect
