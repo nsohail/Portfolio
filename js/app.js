@@ -2,7 +2,7 @@ var newLocation;
 
 $(document).ready(function(){
 
-$('.js-colors div:first-child').trigger('click');
+
 
 
 //fade effect
@@ -26,6 +26,8 @@ function newpage() {
 window.location = linkLocation;
 
 }
+
+$('.js-colors div:first-child').trigger('click');
 
 
 // //icon hover effect
