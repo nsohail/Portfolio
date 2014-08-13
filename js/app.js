@@ -1,11 +1,14 @@
 //var newLocation;
 
-$(document).ready(function(){
-
 location.reload(function(){
 	$('.js-colors div:first-child').trigger('click');
 	alert('ok');
 });
+
+
+$(document).ready(function(){
+
+
 
 
 //fade effect
