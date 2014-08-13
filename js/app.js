@@ -27,7 +27,7 @@ window.location = linkLocation;
 
 }
 
-$('.js-colors div:first-child').trigger('click');
+$('.first').trigger('click');
 
 
 // //icon hover effect
