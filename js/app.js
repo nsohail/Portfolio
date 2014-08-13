@@ -1,9 +1,9 @@
-
+var newLocation;
 
 $(document).ready(function(){
 
 
-$('.first').trigger("click");
+
 
 //fade effect
 //$('body').css('display', 'none');
@@ -27,7 +27,7 @@ window.location = linkLocation;
 
 }
 
-
+$('.js-colors div:first-child').trigger('click');
 
 
 // //icon hover effect
