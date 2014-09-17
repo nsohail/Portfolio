@@ -4,7 +4,7 @@
 $(document).ready(function(){
 
 
-$('.js-colors div:first-child').trigger('click');
+setTimeout(function(){$('.js-colors div:first-child').trigger('click');},100)
 
 
 //fade effect
